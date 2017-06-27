@@ -19,4 +19,4 @@ cd ~/
 git clone https://github.com/tstraus/hugo_tstraus.git
 # to server at startup
 # crontab -e
-# @reboot http-server /home/tstraus/hugo_tstraus/public -a localhost -p 1234
+# @reboot bash /home/tstraus/serverSetup/startup.sh
