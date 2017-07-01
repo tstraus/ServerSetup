@@ -5,10 +5,10 @@ git pull
 http-server ./public -a localhost -p 1234 & 
 
 cd /home/tstraus/CatChatWebClient
-npm install
 git pull
+npm install
 
 cd /home/tstraus/CatChatServer
-npm install
 git pull
+npm install
 node catchat.js
