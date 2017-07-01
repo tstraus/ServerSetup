@@ -15,8 +15,17 @@ sudo apt-get install -y nodejs
 
 sudo npm install -g http-server
 
+cp ./.gitconfig ../
+
 cd ~/
 git clone https://github.com/tstraus/hugo_tstraus.git
-# to server at startup
-# crontab -e
+git clone https://github.com/tstraus/CatChatWebClient.git
+git clont https://github.com/tstraus/CatChatServer.git
+cd CatChatWebClient
+npm install
+cd ../CatChatServer
+npm install
+
+# to serve at startup
+# sudo crontab -e
 # @reboot bash /home/tstraus/serverSetup/startup.sh
