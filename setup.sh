@@ -20,11 +20,23 @@ cp ./.gitconfig ../
 cd ~/
 git clone https://github.com/tstraus/hugo_tstraus.git
 git clone https://github.com/tstraus/CatChatWebClient.git
-git clont https://github.com/tstraus/CatChatServer.git
+git clone https://github.com/tstraus/CatChatServer.git
 cd CatChatWebClient
 npm install
 cd ../CatChatServer
 npm install
+
+cd ~/
+git clone https://github.com/tstraus/go_cpp_server.git
+sudo apt install cmake
+sudo apt install libssl-dev
+sudo apt install libboost-all-dev
+sudo apt install libgootle-perftools-dev
+cd go_cpp_server
+mkdir build
+cd build
+cmake ..
+make
 
 # to serve at startup
 # sudo crontab -e

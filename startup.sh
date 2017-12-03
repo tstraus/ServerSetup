@@ -6,3 +6,5 @@ http-server ./public -a localhost -p 1234 &
 
 cd /home/tstraus/CatChatServer
 node catchat.js
+
+cd /home/tstraus/go_cpp_server --port=3456 &
