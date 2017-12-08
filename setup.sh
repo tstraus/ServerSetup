@@ -17,6 +17,9 @@ sudo npm install -g http-server
 
 cp ./.gitconfig ../
 
+# install golang
+sudo snap install --classic go
+
 cd ~/
 git clone https://github.com/tstraus/hugo_tstraus.git
 git clone https://github.com/tstraus/CatChatWebClient.git
