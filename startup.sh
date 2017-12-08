@@ -2,7 +2,7 @@
 
 cd /home/tstraus/hugo_tstraus
 git pull
-http-server ./public -a localhost -p 1234 & 
+go run server.go --port=1234
 
 cd /home/tstraus/CatChatServer
 node catchat.js &
